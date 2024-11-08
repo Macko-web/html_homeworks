@@ -1,52 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body>
-    <h1>List of Mountain</h1>
-    <ol type="I">
-      <li>
-        K2
-        <ul>
-          <li>Pakistan</li>
-          <li>8.611m</li>
-        </ul>
-      </li>
-      <li>
-        <h3>Everest</h3>
-        <ul>
-          <li>Earth</li>
-          <li>
-            8.849m
-            <ul>
-              <li>Dime Murato</li>
-              <li>Zdravko Dejanovic</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h4>Kilimanjaro</h4>
-             <ul>1.Tanzania</ul>
-             <ul>2.Africa</ul>
-             <ul>3.5.859</ul>
-      </ul> 
-    </li>
-        <li>
-            <h3> 14 Peaks</h3>
-            <ul>
-                 <li>Nimsdai Purja</li>
-                 <li>Nothing Is Impossible</li>
-            </ul>
-        </li>
-        <li>
-            <h3>
-             Korab 
-            </h3>
-            <ul>
-                <li>Martin Gjorgjievski</li>
-                <li>2.764m</li>
-                <li>Macedonia</li>
-            </ul>
-        </li>
-    </ol>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL Bulli Restaurant</title>
+    <style>
+        h1 {color: darkblue;}
+    </style>
+</head>
+<body>
+    <h1>EL Bulli Restaurant</h1>
+    <p>
+        <strong> Monday through Friday</strong>
+    </p>
+    <p>
+        <strong><cite>[ 11am -3pm ]</cite></strong>
+        <strong><cite> ☻ 9.95$ plus tax ☻ </cite></strong>
+    </p>
+    <p>
+        <cite>includes food, snacks and drinks</cite>
+    </p>
+
+    <form>
+        <fieldset>
+            <legend><h3>Order information</h3></legend>
+            <label for="name"><strong>Name</strong></label>
+            <input type="text" name="name" id="name"/>
+            <div style="margin-top: 5px;">
+                <label for="to-go">To go</label>
+                <select id="to-go" name="to-go">
+                    <option value="yes">Yes</option>
+                    <opt ion value="no">No</option>
+                </select>
+            </div>
+            
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend><h3>Food</h3></legend> 
+            <p><h3><cite>Select your food</cite></h3></p>
+
+            <label for="monday">Monday</label>
+            <select id="monday" name="monday">
+                <option value="Tomato Mozarela">Tomato Mozarela</option>
+                <option value="Chicken Salad">Chicken Salad</option>
+            </select>   
+            <div style="margin-top: 10px;">
+                <label for="tuesday">Tuesday</label>
+                <select id="tuesday" name="tuesday">
+                    <option value="Spain Salad">Spain Salad</option>
+                    <option value="Toto Wrap">Toto Wrap</option>
+                </select>
+            </div>   
+            <div style="margin-top: 10px;">
+                <label for="wednesday">Wednesday</label>
+                <select id="wednesday" name="wednesday">
+                    <option value="Macedonian Fruit Salad">Macedonian Fruit Salad</option>
+                    <option value="Tavce gravce">Tavce gravce</option>
+                </select>
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="thursday">Thursday</label>
+                <select id="thursday" name="thursday">
+                    <option value="Chicken Wrap">Chicken Wrap</option>
+                    <option value="Tuna Salad">Tuna Salad</option>
+                </select>
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="friday">Friday</label>
+                <select id="friday" name="friday">
+                    <option value="Bufalo Mozarela">Bufalo Mozarela</option>
+                    <option value="Sopska Salad">Sopska Salad</option>
+                </select>
+            </div>
+
+            <p><cite>Gluten Free Bread ☻ 75$ extra ☻</cite></p>
+            <label for="select">Select</label>
+            <select id="select" name="select">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend><h3>Snack</h3></legend>
+
+                <label for="devices">Snack</label>
+
+                <div>
+                    <input type="radio" name="service"id="apple"value="apple" checked />
+                    <label for="apple">Apple</label>
+                </div>
+                
+                <div>
+                    <input type="radio" name="service" id="spotify" value="Banana" />
+                    <label for="banan">Banana</label>
+                </div>
+                <div>
+                    <input type="radio" name="service" id="spotify" value="Potato" />
+                    <label for="potato">Potato</label>
+                </div>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend><h3>Drinks</h3></legend>
+
+            <label for="devices">Drinks</label>
+            <select name="devices" id="devices">
+
+                <option value="" selected disabled>
+                <option value="cocacola">CocaCola</option>
+                <option value="fanta">Fanta</option>
+                <option value="sprite">Sprite</option>
+
+            </select>
+            <hr>
+            <div>
+                <input type="checkbox" name="drink" id="drink" />
+                <label for="drink">Large drink ☻ 15$ extra ☻</label>
+                <div>
+                    <input type="checkbox" name="drink" id="drink" />
+                    <label for="drink">Small drink ☻ 10$ extra ☻</label>
+                </div>
+            </div>
+        </fieldset>
+        <div style="margin-top: 10px;">
+            <button type="button">Pleace order</button>
+        </div>
+    </form>
+</body>
 </html>
