@@ -1,0 +1,80 @@
+div {
+  cursor: pointer;
+  position: absolute;
+  top: 465px;
+  left: 460px;
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  margin: 50px;
+  border-radius: 20px;
+}
+.boxone {
+  border: 20px solid rgba(114, 114, 148, 0.603);
+  left: 405px;
+  margin: 90px;
+  position: absolute;
+  top: 195px;
+  height: 310px;
+  width: 260px;
+  background-color: rgb(7, 0, 0);
+  padding: 100px;
+}
+.boxtwo {
+  margin: 200px;
+  position: absolute;
+  border: 10px solid black;
+  background-color: rgb(236, 231, 203);
+  width: 80px;
+  height: 55px;
+  padding: 90px;
+  padding-top: 35px;
+  top: 420px;
+}
+.boxthree {
+  position: absolute;
+  border: 10px solid black;
+  background-color: rgb(236, 231, 203);
+  width: 40px;
+  height: 50px;
+  padding: 50px;
+  margin: 50px;
+  top: 410px;
+}
+.boxfour {
+  top: 100px;
+  width: 300px;
+  height: 210px;
+  background-color: rgb(224, 61, 61);
+  margin: 200px;
+  position: absolute;
+  padding-top: 100px;
+  border: solid black 10px;
+}
+.boxfive {
+  margin: 50px;
+  background-color: rgb(236, 231, 203);
+  border: color white;
+  top: 250px;
+  width: 140px;
+  height: 150px;
+}
+.boxsix {
+  top: 420px;
+
+  left: 730px;
+  margin: 200px;
+  border: 10px solid black;
+  width: 30px;
+  height: 180px;
+  background-color: rgb(243, 217, 70);
+}
+
+.boxseven {
+  margin: 50px;
+  background-color: rgb(15, 121, 182);
+  border: color white;
+  top: 570px;
+  width: 140px;
+  height: 180px;
+}
