@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: hsl(91, 89%, 26%);
+  color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+header h1 {
+  font-size: 30px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.featured-movie {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+}
+.featured-movie img {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+}
+.featured-movie h2 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+.featured-movie .description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.trailer-button {
+  padding: 10px 20px;
+  background-color: hsl(91, 89%, 26%);
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.trailer-button:hover {
+  background-color: #ffffff;
+}
+.movie-reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px 20px;
+}
+.review img {
+  width: 70%;
+  height: 300px;
+  object-fit: cover;
+}
+.review h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.review p {
+  font-size: 14px;
+}
+.review a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: hsl(91, 89%, 26%);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.review a:hover {
+  background-color: #047228;
+}
+footer {
+  background-color: hsl(91, 89%, 26%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+footer .social-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+footer .social-links a:hover {
+  text-decoration: underline;
+}
+footer .streaming-links a {
+  margin: 0 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+footer p {
+  margin-top: 10px;
+}
